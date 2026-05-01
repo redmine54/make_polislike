@@ -8,7 +8,7 @@ $ npm install express
 起動：
   node server.js &
 停止
-  kill $(lsof -t -i:8880)
+  
 */
 const express = require("express");
 const app = express();
