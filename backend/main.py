@@ -1,9 +1,13 @@
 # backend/main.py
 """
 起動：
-uvicorn backend.main:app --reload --port 8000 &
+nohup uvicorn backend.main:app --reload --port 8000 > uvicorn.log 2>&1 &
+
 FqstAPI:
- htp://localhost:8000/data
+htp://localhost:8000/data
+
+停止：
+kill $(lsof -t -i:8000)
 """
 
 from fastapi import FastAPI
