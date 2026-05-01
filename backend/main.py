@@ -1,7 +1,9 @@
 # backend/main.py
 """
 起動：
-//uvicorn backend.main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8000 &
+FqstAPI:
+ htp://localhost:8000/data
 """
 
 from fastapi import FastAPI

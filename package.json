@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "make_polislike",
+  "description": "polislike in MAC ~/git_lesson/polislike",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github-redmine54:redmine54/make_polislike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
